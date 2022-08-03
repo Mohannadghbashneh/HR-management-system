@@ -22,7 +22,7 @@ const Employee1 = {
    
    getrRandomSalary:function() {
          let salary=Math.floor(Math.random() * (2000-1500)+1500);
-         let netSalary=salary-(salary * 0.075);
+         let netSalary= salary-(salary * 0.075);
          this.salary=netSalary;
     
     }
@@ -47,19 +47,20 @@ const Employee2= {
     
     ImageURL:"",
 
-    Salary:0,
+    salary:0,
 
     uniqueId:function(counter){
         this.EmployeeID=counter+1;
      id++;
     },
 
-    getrRandomSalary : function(min , max) {
-        let salary=Math.floor(Math.random()*(max-min)+min);
-        let netSalary=salary-(salary*0.075);
-        
-    
-    }
+    getrRandomSalary:function() {
+        let salary=Math.floor(Math.random() * (2000-1500)+1500);
+        let netSalary= salary-(salary * 0.075);
+        this.salary=netSalary;
+   
+   }
+
 }
  
 Employee2.uniqueId(id);
@@ -78,7 +79,7 @@ const Employee3 = {
     
     ImageURL:"https://images.unsplash.com/photo-1531804055935-76f44d7c3621?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG98ZW58MHx8MHx8&w=1000&q=80",
 
-    Salary:0,
+    salary:0,
 
 
 
@@ -89,10 +90,11 @@ const Employee3 = {
 
     getrRandomSalary:function() {
         let salary=Math.floor(Math.random() * (2000-1500)+1500);
-        let netSalary=salary-(salary * 0.075);
+        let netSalary= salary-(salary * 0.075);
         this.salary=netSalary;
-       
+   
    }
+
     
 }
 Employee3.uniqueId(id);
@@ -112,7 +114,7 @@ const Employee4 = {
     
     ImageURL:"",
 
-    Salary:0,
+    salary:0,
 
     uniqueId:function(counter){
         this.EmployeeID=counter+1;
@@ -121,12 +123,12 @@ const Employee4 = {
 
 
     getrRandomSalary:function() {
-        let salary=Math.floor(Math.random() * (1500-1000)+1000);
-        let netSalary=salary-(salary * 0.075);
-        this.salary=netSalary;
-      
-   }
+         let salary=Math.floor(Math.random() * (2000-1500)+1500);
+         let netSalary= salary-(salary * 0.075);
+         this.salary=netSalary;
     
+    }
+
 }
 Employee4.uniqueId(id);
 
@@ -144,7 +146,7 @@ const Employee5 = {
     
     ImageURL:"",
 
-    Salary:0,
+    salary:0,
 
     uniqueId:function(counter){
         this.EmployeeID=counter+1;
@@ -153,10 +155,11 @@ const Employee5 = {
 
     getrRandomSalary:function() {
         let salary=Math.floor(Math.random() * (2000-1500)+1500);
-        let netSalary=salary-(salary * 0.075);
+        let netSalary= salary-(salary * 0.075);
         this.salary=netSalary;
    
    }
+
 }
 Employee5.uniqueId(id);
 
@@ -174,7 +177,7 @@ const Employee6 = {
     
     ImageURL:"",
 
-    Salary:0,
+    salary:0,
 
     uniqueId:function(counter){
         this.EmployeeID=counter+1;
@@ -183,11 +186,12 @@ const Employee6 = {
 
 
     getrRandomSalary:function() {
-        let salary=Math.floor(Math.random() * (1000-500)+500);
-        let netSalary=salary-(salary * 0.075);
+        let salary=Math.floor(Math.random() * (2000-1500)+1500);
+        let netSalary= salary-(salary * 0.075);
         this.salary=netSalary;
-       
+   
    }
+
 }
 Employee6.uniqueId(id);
 
@@ -205,7 +209,7 @@ const Employee7 = {
     
     ImageURL:"asdaas",
 
-    Salary:0,
+    salary:0,
     
     uniqueId:function(counter){
         this.EmployeeID=counter+1;
@@ -213,11 +217,12 @@ const Employee7 = {
     },
 
     getrRandomSalary:function() {
-        let salary=Math.floor(Math.random() * (1500-1000)+1000);
-        let netSalary=salary-(salary * 0.075);
+        let salary=Math.floor(Math.random() * (2000-1500)+1500);
+        let netSalary= salary-(salary * 0.075);
         this.salary=netSalary;
-       
+   
    }
+
 }
 Employee7.uniqueId(id);
 
