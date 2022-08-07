@@ -1,0 +1,55 @@
+.heading{
+    font-size: 200%;
+    text-align: center;
+    color: red;
+}
+/* 
+img{
+
+    object-fit: cover;
+    width: 30%;
+    height: auto;
+    padding-right: 3%;
+    padding-top: 10%;
+} */
+body {
+    background-image: url("https://th.bing.com/th/id/R.475b6f53c6c676b4570a6f15f5db096d?rik=DoQC6F0SthGSrw&riu=http%3a%2f%2fwww.wallsev.com%2fwp-content%2fuploads%2f2014%2f01%2fsimple-grey-wallpaper-8113.jpg&ehk=iu5VVMIp8Oy6ENDGD4TYoffwPbtHxaw0WdmeuzXr6Jo%3d&risl=&pid=ImgRaw&r=0");
+ background-color: #cccccc;
+  }
+ 
+.employee{
+    text-align: center;
+    
+    padding:10%;
+}
+.mohannad-item-co{
+  display: flex ;
+    gap: 300px;
+    
+    
+}
+.mohannad-item{
+    background: rgb(2, 2, 2);;
+    padding: 50px 20px 20px ;
+   position: relative;
+    border-radius: 15px;
+}
+.mohannad-item img {
+    width: 70px;
+    object-fit: cover;
+    height: 70px;
+    border-radius: 50%;
+    border: 10px solid#fff;
+    position: absolute;
+    top:-35%;
+    right: 50px;
+    transform:translateX(-50%);
+}
+.mohannad-item h3{
+    color:#fff;
+    margin: 10px 0 10px;
+}
+
+.a{
+    size: 500%;
+}
